@@ -1,20 +1,26 @@
 import json
 from travel.state import AgentState
 from langchain_core.messages import SystemMessage
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
+# from langchain_openai import ChatOpenAI
 from travel.search import search_for_places
 from travel.trips import add_trips, update_trips, delete_trips
 from langchain_core.runnables import RunnableConfig
 from langchain_core.messages import AIMessage, ToolMessage
 from typing import cast
 from langchain_core.tools import tool
+import os
+from dotenv import load_dotenv
+load_dotenv()  
+
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 @tool
 def select_trip(trip_id: str):
     """Select a trip"""
     return f"Selected trip {trip_id}"
-
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatGroq(model="llama-3.3-70b-versatile",temperature=0 ,api_key=groq_api_key)
+# llm = ChatOpenAI(model="gpt-4o")
 tools = [search_for_places, select_trip]
 
 async def chat_node(state: AgentState, config: RunnableConfig):

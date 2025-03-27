@@ -1,15 +1,16 @@
 import { NextRequest } from "next/server";
 import {
   CopilotRuntime,
-  OpenAIAdapter,
+  GroqAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
   langGraphPlatformEndpoint,
   copilotKitEndpoint,
 } from "@copilotkit/runtime";
-import OpenAI from "openai";
+// import OpenAI from "openai";
 
-const openai = new OpenAI();
-const llmAdapter = new OpenAIAdapter({ openai } as any);
+// const openai = new OpenAI();
+// const llmAdapter = new OpenAIAdapter({ openai } as any);
+const llmAdapter = new GroqAdapter({ model: "llama-3.3-70b-versatile" });
 const langsmithApiKey = process.env.LANGSMITH_API_KEY as string;
 
 export const POST = async (req: NextRequest) => {
