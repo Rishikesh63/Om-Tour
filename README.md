@@ -1,4 +1,4 @@
-# CoAgents Travel
+# Om-Tours
 
 This example contains a Travel Planner application with search capabilities using CoAgents.
 
