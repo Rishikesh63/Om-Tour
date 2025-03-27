@@ -39,7 +39,7 @@ export default function Home() {
         defaultOpen={false}
         clickOutsideToClose={false}
         labels={{
-          title: "Travel Planner",
+          title: "Om Tour Planner",
           initial:
             "Hi! 👋 I'm here to plan your trips. I can help you manage your trips, add places to them, or just generally work with you to plan a new one.",
         }}

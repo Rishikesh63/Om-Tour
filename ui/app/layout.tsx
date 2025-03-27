@@ -6,8 +6,8 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CopilotKit Travel",
-  description: "A simple travel planner using CopilotKit",
+  title: "Om-Tours",
+  description: "Om-Tours is a travel agency that offers tours.",
 };
 
 export default function RootLayout({
