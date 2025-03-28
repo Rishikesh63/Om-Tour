@@ -1,6 +1,6 @@
-# Tour Planner
+# SARATHI
 
-Travel Planner is responsible for managing trips stored in its internal state with the capability of reaching out to the internet using Google Maps.
+SARATHI is responsible for managing trips stored in its internal state with the capability of reaching out to the internet using Google Maps.
 
 ## Usage
 This Agent is constructed using LangGraph and Python that is managed by Poetry. To get started you need to install its dependencies and start its server.

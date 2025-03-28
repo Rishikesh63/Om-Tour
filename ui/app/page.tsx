@@ -39,9 +39,9 @@ export default function Home() {
         defaultOpen={false}
         clickOutsideToClose={false}
         labels={{
-          title: "Om Tour Planner",
+          title: "SAR@THi",
           initial:
-            "Hi! 👋 I'm here to plan your trips. I can help you manage your trips, add places to them, or just generally work with you to plan a new one.",
+            "Hi! 👋 I'm Sarathi, your AI travel planner from Om Tours. I’ll create personalized itineraries based on your preferences, budget, and schedule. Add places, adjust plans in real time, or get recommendations—let’s plan your perfect trip! ✈️🌍",
         }}
       >
         <TooltipProvider>
