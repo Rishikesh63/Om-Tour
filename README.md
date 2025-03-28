@@ -1,4 +1,4 @@
-# Om-Tours
+# SARATHI: Your Travel Agent 
 ![image](https://github.com/user-attachments/assets/77a5cd6c-dd70-4929-ad7b-5166c3196d7b)
 
 ## Running the Agent
