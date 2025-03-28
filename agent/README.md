@@ -5,7 +5,7 @@ Travel Planner is responsible for managing trips stored in its internal state wi
 ## Usage
 This Agent is constructed using LangGraph and Python that is managed by Poetry. To get started you need to install its dependencies and start its server.
 
-**These instructions assume you are in the `coagents-travel/agent/` directory**
+**These instructions assume you are in the `Om-Tour/agent/` directory**
 
 To start you'll need to create a `.env` file with the following:
 
