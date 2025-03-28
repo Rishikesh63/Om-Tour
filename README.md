@@ -49,15 +49,6 @@ pnpm run dev
 
 Navigate to [http://localhost:3000](http://localhost:3000).
 
-# LangGraph Studio
 
-Run LangGraph studio, then load the `./agent` folder into it.
 
-Make sure to create the `.env` files mentioned above first!
 
-# Troubleshooting
-
-A few things to try if you are running into trouble:
-
-1. Make sure there is no other local application server running on the 8000 port.
-2. Under `/agent/travel/demo.py`, change `0.0.0.0` to `127.0.0.1` or to `localhost`
