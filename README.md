@@ -15,9 +15,6 @@ GROQ_API_KEY=...
 GOOGLE_MAPS_API_KEY=...
 ```
 
-IMPORTANT:
-Make sure the OpenAI API Key you provide, supports gpt-4o.
-
 Then, run the demo:
 
 ```sh
