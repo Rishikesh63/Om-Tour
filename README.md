@@ -1,13 +1,7 @@
 # Om-Tours
-
-This example contains a Travel Planner application with search capabilities using CoAgents.
-
-**These instructions assume you are in the `coagents-travel/` directory**
+![image](https://github.com/user-attachments/assets/77a5cd6c-dd70-4929-ad7b-5166c3196d7b)
 
 ## Running the Agent
-
-This agent is already hosted in LangGraph Platform. However, if you'd like to run it
-yourself first, install the dependencies:
 
 ```sh
 cd agent
@@ -17,7 +11,7 @@ poetry install
 Then, create a `.env` file inside `./agent` with the following:
 
 ```
-OPENAI_API_KEY=...
+GROQ_API_KEY=...
 GOOGLE_MAPS_API_KEY=...
 ```
 
@@ -42,7 +36,7 @@ pnpm i
 Then, create a `.env` file inside `./ui` with the following:
 
 ```
-OPENAI_API_KEY=...
+GROQ_API_KEY=...
 NEXT_PUBLIC_CPK_PUBLIC_API_KEY=...
 ```
 
